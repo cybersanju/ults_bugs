@@ -69,3 +69,8 @@ class RegistrationResult {
         this.message = message;
     }
 }
+
+bug 1) registeredUsers.size() < capacity
+correction:
+registeredUsers.size() >= capacity
+bug 2) cancelRegistration doesnot return anything
